@@ -9,7 +9,7 @@ const Variables = () => {
   const inputRefD = useRef(null);
 
   function handleClickA() {
-    let answer = inputRefA.current.value;
+    let answer = inputRefA.current.value.toLowerCase();
 
     if (answer === "") {
       alert("You have to type something!");
@@ -27,7 +27,7 @@ const Variables = () => {
     }
   }
   function handleClickB() {
-    let answer = inputRefB.current.value;
+    let answer = inputRefB.current.value.toLowerCase();
 
     if (answer === "") {
       alert("You have to type something!");
@@ -44,7 +44,7 @@ const Variables = () => {
   }
 
   function handleClickC() {
-    let answer = inputRefC.current.value;
+    let answer = inputRefC.current.value.toLowerCase();
 
     if (answer === "") {
       alert("You have to type something!");
@@ -61,7 +61,7 @@ const Variables = () => {
   }
 
   function handleClickD() {
-    let answer = inputRefD.current.value;
+    let answer = inputRefD.current.value.toLowerCase();
 
     if (answer === "") {
       alert("You have to type something!");
