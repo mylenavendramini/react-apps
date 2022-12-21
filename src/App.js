@@ -4,6 +4,7 @@ import DisplayArray from "./components/display array/displayArray";
 import FetchData from "./components/fetchData/fetchData";
 
 import ToggleButton from "./components/toggle button/toggleButton";
+import Variables from "./components/variables/variables";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </a>
       <Counter />
       <ToggleButton />
+      <Variables />
       <FetchData />
       <DisplayArray />
     </div>
