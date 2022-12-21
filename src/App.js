@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./components/counter/counter";
 import DisplayArray from "./components/display array/displayArray";
 import FetchData from "./components/fetchData/fetchData";
+
 import ToggleButton from "./components/toggle button/toggleButton";
 
 function App() {
@@ -14,9 +15,9 @@ function App() {
         Take a look at my website
       </a>
       <Counter />
+      <ToggleButton />
       <FetchData />
       <DisplayArray />
-      <ToggleButton />
     </div>
   );
 }

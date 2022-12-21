@@ -10,7 +10,6 @@ const Counter = () => {
 
   return (
     <div className="container">
-      <h1>Counter</h1>
       <h2>Counter: {counter}</h2>
       <button onClick={incrementHandler}>Increment</button>
       <button onClick={decrementHandler}>Decrement</button>
