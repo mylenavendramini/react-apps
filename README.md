@@ -1,10 +1,19 @@
 # My React Apps
 
-This is a demo of some React apps, where I use tools like hooks.
+This is a demo of some React apps.
 
-The idea of ​​the app is to make the user interact with the site in different ways.
+## Counter App and Toggle Button App:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I used useState hook for both of them.
+
+https://user-images.githubusercontent.com/93344031/208929535-316aebc4-212c-45a5-bc6a-efb1273d7643.mov
+
+## Fetch Data App and Display Array App:
+
+I used useState and useEffect hooks for Fetch Data App and an API.
+For the Display Array App, I had to map through an users array and display it.
+
+<img width="281" alt="Screenshot 2022-12-21 at 14 26 32" src="https://user-images.githubusercontent.com/93344031/208929568-17ef307e-3e05-43a4-9f5c-7a27df64804d.png">
 
 ## Prerequisites
 
