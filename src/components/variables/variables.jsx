@@ -11,7 +11,9 @@ const Variables = () => {
   function handleClickA() {
     let answer = inputRefA.current.value;
 
-    if (answer === "functional" || answer === "global") {
+    if (answer === "") {
+      alert("You have to type something!");
+    } else if (answer === "functional" || answer === "global") {
       alert("Right answer!");
       points += 1;
       console.log("Points: " + points);
@@ -27,7 +29,9 @@ const Variables = () => {
   function handleClickB() {
     let answer = inputRefB.current.value;
 
-    if (answer === "block") {
+    if (answer === "") {
+      alert("You have to type something!");
+    } else if (answer === "block") {
       alert("Right answer!");
       points += 1;
       console.log("Points: " + points);
@@ -42,7 +46,9 @@ const Variables = () => {
   function handleClickC() {
     let answer = inputRefC.current.value;
 
-    if (answer === "no") {
+    if (answer === "") {
+      alert("You have to type something!");
+    } else if (answer === "no") {
       alert("Right answer! Because they are block scope!");
       points += 1;
       console.log("Points: " + points);
@@ -57,7 +63,9 @@ const Variables = () => {
   function handleClickD() {
     let answer = inputRefD.current.value;
 
-    if (answer === "let") {
+    if (answer === "") {
+      alert("You have to type something!");
+    } else if (answer === "let") {
       alert("Right answer!");
       points += 1;
       console.log("Points: " + points);
