@@ -70,14 +70,18 @@ const Variables = () => {
       points += 1;
       console.log("Points: " + points);
       setPoints(points);
+      // after last question:
+      if (points === 4) {
+        alert("Congratulations! You got them all right!");
+      } else if (points < 4) {
+        alert("What a pity! Let's try again another time!");
+      }
     } else {
       alert("Wrong answer! It's the let variable!");
       //   points -= 1;
       console.log("Points: " + points);
     }
   }
-  let totalPoints = points;
-  localStorage.setItem("points", totalPoints);
 
   return (
     <div className="container">

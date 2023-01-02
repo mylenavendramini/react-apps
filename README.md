@@ -8,6 +8,12 @@ I used useState hook for both of them.
 
 https://user-images.githubusercontent.com/93344031/208929535-316aebc4-212c-45a5-bc6a-efb1273d7643.mov
 
+## Var, Let and Const Variables questions:
+
+I used useState hook.
+
+https://user-images.githubusercontent.com/93344031/208929535-316aebc4-212c-45a5-bc6a-efb1273d7643.mov
+
 ## Fetch Data App and Display Array App:
 
 I used useState and useEffect hooks for Fetch Data App and an API.

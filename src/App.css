@@ -36,3 +36,7 @@ a {
   color: black;
   font-weight: bold;
 }
+
+input {
+  padding: 0.4rem;
+}
